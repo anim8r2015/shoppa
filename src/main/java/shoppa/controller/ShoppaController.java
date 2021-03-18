@@ -23,9 +23,12 @@ import shoppa.model.Item;
 //@RequestMapping("items")
 //@RestController
 
+@Path("/api")
 public class ShoppaController {
 	
-   
+	@Path("/items")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
 	public List<Item> getAllItems(){
 						
 		List<Item> items = new ArrayList<Item>();

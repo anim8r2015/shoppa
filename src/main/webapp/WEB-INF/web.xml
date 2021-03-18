@@ -3,10 +3,10 @@
  "-//Oracle Corporation//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd">
 
-<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+<web-app xmlns="http://java.sun.com/xml/ns/javaee">
     <servlet>
         <servlet-name>demo</servlet-name>
-        <servlet-class>myapp.DemoServlet</servlet-class>
+        <servlet-class>shoppa.ShoppaApplication</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>demo</servlet-name>
